@@ -1,0 +1,37 @@
+# Virtual environment
+chatsim/
+
+# VisDrone dataset (large — download separately)
+VisDrone-data/
+
+# YOLO model weights
+*.pt
+*.onnx
+*.engine
+
+# Generated outputs
+output/
+drone_pipeline_results.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Windows
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# VS Code
+.vscode/
+
+# Misc
+*.log
+*.tmp
